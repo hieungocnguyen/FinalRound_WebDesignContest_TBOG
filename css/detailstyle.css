@@ -388,3 +388,72 @@ body {
   font-size: 1.4rem;
   margin-bottom: 70px;
 }
+
+.dang-ky {
+  margin-top: -20px;
+  width: 140px;
+  height: 140px;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #f3c67a;
+  margin-bottom: 40px;
+}
+
+.sis {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hai-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.dang-ky-form {
+  padding-right: 100px;
+  padding-left: 100px;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: rgb(245, 240, 240);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dang-ky-form label {
+  /* text-align: left !important; */
+  align-items: flex-start !important;
+  margin-bottom: 5px;
+}
+.dang-ky-form input {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+
+  width: 100%;
+}
+
+.register {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #f3c67a;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.dong {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #f3c67a;
+  margin: 0 auto;
+  margin-top: 20px;
+}

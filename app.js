@@ -26,6 +26,10 @@ const pPage2 = document.getElementById("p-page2");
 const pPage3 = document.getElementById("p-page3");
 const pPage4 = document.getElementById("p-page4");
 
+const dangKy = document.querySelector(".dang-ky");
+const formz = document.querySelector('.sis')
+const re = document.querySelector('.dong')
+
 window.addEventListener("scroll", () => {
    console.log(window.scrollY);
    if (window.scrollY >= 500) {
@@ -113,3 +117,15 @@ function SwitchLanguagesFunction() {
       language.textContent = "EN";
    }
 }
+
+dangKy.addEventListener('click', () => {
+   formz.classList.toggle('d-none');
+   if (formz.classList.contains('d-none')) {
+      formz.style.display = 'block'
+   }
+   else (formz.style.display = 'none')
+})
+
+re.addEventListener('click', () => {
+   formz.style.display = 'none'
+})
