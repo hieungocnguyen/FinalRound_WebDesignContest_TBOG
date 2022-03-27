@@ -96,7 +96,7 @@ a {
    height: 48px;
    cursor: pointer;
    transition: all 0.3s ease-in;
-   min-width: 175px;
+   min-width: 290px;
 }
 
 .main-container .content .button-explore .explore {
@@ -289,6 +289,20 @@ a {
       font-size: 2.2rem;
       font-weight: 900;
    }
+   .main-container .content .body-content {
+      display: none;
+   }
+   .main-container .content .title {
+      display: none;
+   }
+   .main-container {
+      flex-direction: column-reverse;
+   }
+   .flex-explore {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
 }
 
 @media screen and (max-width: 500px) {
@@ -310,5 +324,10 @@ a {
    }
    .main-container .illustraties {
       height: 360px;
+   }
+   .flex-explore {
+      display: flex;
+      align-items: center;
+      justify-content: center;
    }
 }
