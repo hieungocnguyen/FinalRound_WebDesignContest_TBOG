@@ -29,7 +29,8 @@ const pPage4 = document.getElementById("p-page4");
 const dangKy = document.querySelector(".dang-ky");
 const formz = document.querySelector('.sis')
 const re = document.querySelector('.dong')
-
+const res = document.querySelector('.register')
+const stic = document.querySelector('.stic');
 window.addEventListener("scroll", () => {
    console.log(window.scrollY);
    if (window.scrollY >= 500) {
@@ -126,6 +127,15 @@ dangKy.addEventListener('click', () => {
    else (formz.style.display = 'none')
 })
 
+res.addEventListener('click', () => {
+   stic.style.display = 'block'
+   formz.style.display = 'none'
+   setInterval(()=>{
+      stic.style.display = 'none'
+   }, 1000)
+})
+
 re.addEventListener('click', () => {
    formz.style.display = 'none'
 })
+
