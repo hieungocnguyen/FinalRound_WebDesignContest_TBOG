@@ -46,6 +46,10 @@ a {
    transition: all 0.3s ease-in;
 }
 
+.header-container .logo a {
+   color: var(--color-black);
+}
+
 .header-container .switch-languages {
    font-size: 2rem;
    font-weight: 900;
@@ -179,6 +183,12 @@ a {
    cursor: pointer;
    margin: 0vw 2vw;
    transition: all 0.3s ease-in;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: var(--color-white);
 }
 
 .footer-container .generate-buttons div.button-child {
