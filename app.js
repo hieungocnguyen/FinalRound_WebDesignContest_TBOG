@@ -68,7 +68,7 @@ buttonChangeLanguage.addEventListener("click", () => {
       h1Page1.innerHTML = "Childhoods";
       h2Page1.innerHTML = "When we were kids";
       pPage1.innerText =
-         "From the first time you held your baby in your arms, you have changed forever. \n  Sometimes you will miss your old self, when you were free and free. Theres nothing you have to worry about. \n  Now you have no idea how hard it is to be a parent.\n  Days go by the same, sleep and then lack of sleep. \n  A loop that doesnt know when to end.";
+         "From the first time you held your baby in your arms, you have changed forever. \n  Sometimes you will miss your old self, when you were free and free.\n\ Theres nothing you have to worry about. \n  Now you have no idea how hard it is to be a parent.\n  Days go by the same, sleep and then lack of sleep. \n  A loop that doesnt know when to end.";
       h1Page2.innerHTML = "Trunks";
       h2Page2.innerHTML = "When we were young";
       pPage2.innerText =
@@ -85,7 +85,7 @@ buttonChangeLanguage.addEventListener("click", () => {
       h1Page1.innerHTML = "Tuổi thơ";
       h2Page1.innerHTML = "Khi còn nhỏ";
       pPage1.innerText =
-         "Từ lần đầu tiền bạn ôm trên tay đứa con của mình, con người bạn đã thay đổi mãi mãi. \n  Đôi khi bạn sẽ nhớ bản thân mình trước kia, khi còn rảnh rang và tự do. Chẳng có điều gì bạn phải lo nghĩ. \n  Giờ bạn chẳng ngờ làm cha mẹ vất vả đến nhường này.\n  Ngày ngày trôi qua đều giống nhau, những giấc ngủ rồi lại thiếu ngủ. \n  Một vòng lặp chẳng biết khi nào qua.";
+         "Từ lần đầu tiền bạn ôm trên tay đứa con của mình, con người bạn đã thay đổi mãi mãi. \n  Đôi khi bạn sẽ nhớ bản thân mình trước kia, khi còn rảnh rang và tự do.\n\ Chẳng có điều gì bạn phải lo nghĩ. \n  Giờ bạn chẳng ngờ làm cha mẹ vất vả đến nhường này.\n  Ngày ngày trôi qua đều giống nhau, những giấc ngủ rồi lại thiếu ngủ. \n  Một vòng lặp chẳng biết khi nào qua.";
       h1Page2.innerHTML = "Trẩu tre";
       h2Page2.innerHTML = "Khi còn trẻ";
       pPage2.innerText =

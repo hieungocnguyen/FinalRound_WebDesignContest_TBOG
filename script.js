@@ -14,7 +14,9 @@ const buttonExplore = document.querySelector(
 );
 const logo = document.querySelector(".logo");
 switchLanguages.addEventListener("click", SwitchLanguagesFunction);
-
+const buttonMy = document.getElementById('button-my')
+const bodyContent = document.querySelector('.body-content')
+const title = document.querySelector('.title')
 window.addEventListener("resize", () => {
    listSVG.forEach((value) => {
       value.style.width = illustraties.offsetWidth + "px";
@@ -24,8 +26,14 @@ window.addEventListener("resize", () => {
 function SwitchLanguagesFunction() {
    if (language.textContent == "EN") {
       language.textContent = "VN";
+      bodyContent.innerHTML = 'You only live once so do what makes you happy so do it at...'
+      title.innerHTML = 'Circle of life company'
+      buttonMy.innerHTML = 'Lets explore with us'
    } else {
       language.textContent = "EN";
+      bodyContent.innerHTML = 'Mỗi người chỉ sống được một lần duy nhất vì vậy hãy làm những điều khiến mình hạnh phúc vì thế làm điều đó tại...'
+      title.innerHTML = 'Công ty Circle of life'
+      buttonMy.innerHTML = 'Hãy khám phá cùng chúng tôi'
    }
 }
 
